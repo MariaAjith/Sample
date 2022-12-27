@@ -17,7 +17,7 @@ export class LoginComponent implements OnInit {
     userName:new FormControl("",[Validators.required,
     Validators.nullValidator]),
     passWord:new FormControl("",[Validators.required,
-    Validators.minLength(6),Validators.maxLength(16),
+    Validators.minLength(6),Validators.maxLength(16), //Validators
     ]),
   });
   isUserValid:boolean=false;
